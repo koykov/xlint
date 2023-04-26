@@ -64,7 +64,7 @@ var (
 func TestValidateUUID(t *testing.T) {
 	for _, stage := range exampleUUID {
 		t.Run(stage.raw, func(t *testing.T) {
-			ok, _ := ValidateUUIDStr(stage.raw)
+			ok, _ := ValidateUUID(stage.raw)
 			if ok != stage.ok {
 				t.Errorf("validation failed on %s, got %v expected %v", stage.raw, ok, stage.ok)
 			}
@@ -77,7 +77,7 @@ func BenchmarkValidateUUID(b *testing.B) {
 		b.Run(stage.raw, func(b *testing.B) {
 			b.ReportAllocs()
 			for i := 0; i < b.N; i++ {
-				ok, _ := ValidateUUIDStr(stage.raw)
+				ok, _ := ValidateUUID(stage.raw)
 				if ok != stage.ok {
 					b.Errorf("validation failed on %s, got %v expected %v", stage.raw, ok, stage.ok)
 				}

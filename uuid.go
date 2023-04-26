@@ -3,7 +3,7 @@ package xlint
 import (
 	"bytes"
 
-	"github.com/koykov/fastconv"
+	"github.com/koykov/byteseq"
 )
 
 var (
@@ -31,11 +31,8 @@ var (
 	}
 )
 
-func ValidateUUIDStr(s string) (bool, error) {
-	return ValidateUUID(fastconv.S2B(s))
-}
-
-func ValidateUUID(p []byte) (bool, error) {
+func ValidateUUID[T byteseq.Byteseq](x T) (bool, error) {
+	p := byteseq.Q2B(x)
 	var c []byte
 	switch len(p) {
 	case 36:
