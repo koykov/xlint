@@ -1,7 +1,8 @@
-github.com/koykov/bytealg v1.0.1 h1:WlD9/4PMThmfQuIRVpVCujzM/3AVTEwlgvaYrErO9Nk=
-github.com/koykov/bytealg v1.0.1/go.mod h1:kMvejxwPkAt7YfHpB1PQ/utMwKpHSY54u1rCxna6Wvg=
-github.com/koykov/fastconv v1.0.0/go.mod h1:Y7I12pumAx+2iH1Yh0X85UpywP7IET/+M7S17toJBes=
-github.com/koykov/fastconv v1.0.1 h1:iCLCfmfirnYzYidi8yyuRKdPT6Uv+iEyWnWzgdfYA2E=
-github.com/koykov/fastconv v1.0.1/go.mod h1:Y7I12pumAx+2iH1Yh0X85UpywP7IET/+M7S17toJBes=
-github.com/koykov/jsonlint v1.0.0 h1:am2/STlB6rIcrNrDBOjUZv6IO7PRD7V72ZFAxhxhUsc=
-github.com/koykov/jsonlint v1.0.0/go.mod h1:g/vVWJr7ouHOLESSYGrjKJG+eo/CuRGYPrK1bMMubtU=
+github.com/koykov/bytealg v1.0.2 h1:e9le4zkWnK9o1dsjlEtIPjC4JuHof+w0XsyOnYGLOvs=
+github.com/koykov/bytealg v1.0.2/go.mod h1:3jLF2zTF1XO+E9dyodNDd3kWyhavUdVUXaIwqPkikB0=
+github.com/koykov/byteseq v0.0.0-20230330194259-68973f3b765a h1:2q77e/w+8RE5VwIaR2KwcF4f+PqEemrgOiRA/xhM7S4=
+github.com/koykov/byteseq v0.0.0-20230330194259-68973f3b765a/go.mod h1:JlIJ6P3/ocuGNRbTVyP0NVRS/ExofhOS8g7mtefjefw=
+github.com/koykov/fastconv v1.0.2 h1:csOWpctD9OcpkfI07LEtqtolc4TT8Y6QG3zQvkTmhrQ=
+github.com/koykov/fastconv v1.0.2/go.mod h1:9jOx5KRGe4UKHxGiDw5Yrp/qrqn2cRwH3xvFjqqCE3c=
+github.com/koykov/jsonlint v1.0.1 h1:4U/VaJJhbQY7iFnXE3nWR3iSua8eMjuqpDOPz5bTyGk=
+github.com/koykov/jsonlint v1.0.1/go.mod h1:pHJWlMR6uZT3UorHtdoj4aq3yL7sYkgdsQIpkZbEqQA=

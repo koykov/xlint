@@ -1,13 +1,10 @@
 package xlint
 
-import "github.com/koykov/jsonlint"
+import (
+	"github.com/koykov/byteseq"
+	"github.com/koykov/jsonlint"
+)
 
-var _ = ValidateJSONStr
-
-func ValidateJSONStr(s string) (int, error) {
-	return jsonlint.ValidateStr(s)
-}
-
-func ValidateJSON(s []byte) (int, error) {
-	return jsonlint.Validate(s)
+func ValidateJSON[T byteseq.Byteseq](x T) (int, error) {
+	return jsonlint.Validate(x)
 }
